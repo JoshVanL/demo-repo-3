@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package pkg.proto.hello.v1alpha1;
+
+option go_package = "github.com/dapr/nix-demo/repo-3/pkg/proto/hello/v1alpha1";
+
+service HelloService {
+  rpc SayHello (HelloRequest) returns (HelloResponse);
+}
+
+message HelloRequest {
+  string world = 1;
+}
+
+message HelloResponse {
+  string hello = 1;
+}

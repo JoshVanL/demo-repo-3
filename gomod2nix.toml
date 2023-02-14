@@ -1,0 +1,27 @@
+schema = 3
+
+[mod]
+  [mod."github.com/golang/protobuf"]
+    version = "v1.5.2"
+    hash = "sha256-IVwooaIo46iq7euSSVWTBAdKd+2DUaJ67MtBao1DpBI="
+  [mod."github.com/google/uuid"]
+    version = "v1.2.0"
+    hash = "sha256-TPn8gHg0Gb2GZUNxVdLyqlWgTX1QRvmseGwIjtKLmCM="
+  [mod."golang.org/x/net"]
+    version = "v0.5.0"
+    hash = "sha256-HpbIAiLs7S1+tVsaSSdbCPw1IK43A0bFFuSzPSyjLbo="
+  [mod."golang.org/x/sys"]
+    version = "v0.4.0"
+    hash = "sha256-jchMzHCH5dg+IL/F+LqaX/fyAcB/nvHQpfBjqwaRJH0="
+  [mod."golang.org/x/text"]
+    version = "v0.6.0"
+    hash = "sha256-+bpeRWR3relKACdal6NPj+eP5dnWCplTViArSN7/qA4="
+  [mod."google.golang.org/genproto"]
+    version = "v0.0.0-20230110181048-76db0878b65f"
+    hash = "sha256-Jc90F9KU+ZKI0ynF/p3Vwl7TJPb7/MxDFs0ebagty2s="
+  [mod."google.golang.org/grpc"]
+    version = "v1.52.0-dev"
+    hash = "sha256-fImh8qqUTWiBtQFtnboSSmaA28skTwBWWzo5xNETgUo="
+  [mod."google.golang.org/protobuf"]
+    version = "v1.28.1"
+    hash = "sha256-sTJYgvlv5is7vHNxcuigF2lNASp0QonhUgnrguhfHSU="
